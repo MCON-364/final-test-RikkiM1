@@ -74,12 +74,12 @@ public class TelemetryProcessor {
     public void start(int workerCount) {
 
 
-        if (workerCount <= 0) throw new IllegalArgumentException();
+        //if (workerCount <= 0) throw new IllegalArgumentException();
 
-        running = true;
+        //running = true;
 
 
-        pool = Executors.newFixedThreadPool(workerCount);
+        //pool = Executors.newFixedThreadPool(workerCount);
 
 
         //for (int i = 0; i < workerCount; i++) {
@@ -87,6 +87,8 @@ public class TelemetryProcessor {
         // }
 
     }
+
+
     private void process(TelemetryEvent event) {
 
 
