@@ -82,9 +82,9 @@ public class TelemetryProcessor {
         pool = Executors.newFixedThreadPool(workerCount);
 
 
-        for (int i = 0; i < workerCount; i++) {
+        //for (int i = 0; i < workerCount; i++) {
             //pool.submit(this::workerLoop);}
-        }
+        // }
 
     }
     private void process(TelemetryEvent event) {
